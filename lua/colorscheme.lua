@@ -1,9 +1,9 @@
 -- define your colorscheme here
-local theme = 'onedark'
+local colorscheme = 'onedark'
 
-local is_ok, _ = pcall(vim.cmd, "colorscheme " .. theme)
+local is_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not is_ok then
-    vim.notify('colorscheme ' .. theme .. ' not found!')
+    vim.notify('colorscheme ' .. colorscheme .. ' not found!')
     return
 end
 

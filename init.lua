@@ -1,21 +1,17 @@
-if vim.g.vscode then
-    -- VSCode extension
-else
-    -- 选项配置
-    require('options')
+-- 选项配置
+require('options')
 
-    -- 键盘映射
-    require('keymaps')
+-- 键盘映射
+require('keymaps')
 
-    -- 插件
-    require('plugins')
+-- 插件
+require('plugins')
 
-    -- 主题
-    require('theme')
+-- 主题
+require('colorscheme')
 
-    -- nvim-tree
-    require('config.nvimtree')
+-- nvim-tree
+require('config.nvimtree')
 
-    -- coc
-    require('config.coc')
-end
+-- coc
+require('config.coc')
