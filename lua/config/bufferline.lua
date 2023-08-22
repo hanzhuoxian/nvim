@@ -4,8 +4,6 @@ if not status_ok then
   return
 end
 
-print("bufferline")
-
 return
 bufferline.setup {
   options = {

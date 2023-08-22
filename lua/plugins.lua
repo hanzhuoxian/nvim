@@ -39,7 +39,6 @@ return require('packer').startup(function(use)
     use 'windwp/nvim-autopairs'
     use 'neoclide/coc.nvim'
     use 'ahmedkhalf/project.nvim'
-    use 'lewis6991/gitsigns.nvim'
     use 'goolord/alpha-nvim'
     use 'folke/which-key.nvim'
     use 'akinsho/toggleterm.nvim'
@@ -63,6 +62,7 @@ return require('packer').startup(function(use)
 
     use 'navarasu/onedark.nvim'
 
+    use 'lewis6991/gitsigns.nvim'
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then

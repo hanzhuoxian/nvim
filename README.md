@@ -20,6 +20,9 @@
 
 [coc extension](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
+```bash
+:call coc#util#install()
+```
 ### PHP Coc Plugins
 
 [coc-intelephense](https://github.com/yaegassy/coc-intelephense)
