@@ -4,7 +4,6 @@ if not status_ok then
   return
 end
 
-return
 bufferline.setup {
   options = {
     numbers = "ordinal", -- | "ordinal" | "buffer_id" | "both" | function({ ordinal, id, lower, raise }): string,
