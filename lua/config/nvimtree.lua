@@ -5,22 +5,12 @@ vim.g.loaded_netrwPlugin = 1
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
--- empty setup using defaults
-require("nvim-tree").setup()
+local is_ok, _ = pcall(require, "nvim-tree")
+if not is_ok then
+    vim.notify('nvim-tree is not found')
+    return
+end
 
--- OR setup with some options
-require("nvim-tree").setup({
-  sort_by = "case_sensitive",
-  view = {
-    width = 30,
-  },
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = true,
-  },
-})
 
 local function my_on_attach(bufnr)
   local api = require "nvim-tree.api"
@@ -39,7 +29,15 @@ end
 
 -- pass to setup along with your other options
 require("nvim-tree").setup {
-  ---
+  sort_by = "case_sensitive",
+  view = {
+    width = 30,
+  },
+  renderer = {
+    group_empty = true,
+  },
+  filters = {
+    dotfiles = true,
+  },
   on_attach = my_on_attach,
-  ---
 }
