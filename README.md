@@ -1,5 +1,9 @@
 # My neovim Config
 
+## neovim-from-scratch
+
+[https://github.com/LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch)
+
 ## 注释
 
 [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
