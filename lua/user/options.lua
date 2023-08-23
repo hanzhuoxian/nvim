@@ -3,6 +3,11 @@ local options = {
     completeopt = { 'menu', 'menuone', 'noselect' },
     mouse = 'a',               -- allow the mouse to be used in Nvim
 
+    backup = false,
+    writebackup = false,
+    updatetime = 300,
+    signcolumn = "yes",
+
     -- Tab
     tabstop = 4,      -- number of visual spaces per TAB
     softtabstop = 4,  -- number of spacesin tab when editing
