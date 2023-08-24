@@ -42,5 +42,6 @@ keymap('n', '<leader>fb', builtin.buffers, {})
 keymap('n', '<leader>fh', builtin.help_tags, {})
 
 -- Navigate buffers
-keymap("n", "<S-l>", ":bnext<CR>", opts)
-keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap('n', '<S-l>', ':bnext<CR>', opts)
+keymap('n', '<S-h>', ':bprevious<CR>', opts)
+keymap('n', '<leader>q', ':Bdelete!<CR>', opts)
