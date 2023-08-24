@@ -2,6 +2,7 @@
 
 ## neovim-from-scratch
 
+配置参考
 [https://github.com/LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch)
 
 ## 注释
