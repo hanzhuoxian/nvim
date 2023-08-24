@@ -13,6 +13,12 @@
 
 [telescope](https://github.com/nvim-telescope/telescope.nvim)
 
+依赖软件
+[ripgrep](https://github.com/BurntSushi/ripgrep)
+```
+brew install ripgrep
+```
+
 ## bufferline
 
 [bufferline](https://github.com/akinsho/bufferline.nvim)

@@ -16,7 +16,7 @@ local options = {
 
     -- UI config
     number = true,         -- show absolute number
-    relativenumber = true, -- add numbers to each line on the left side
+    relativenumber = false, -- add numbers to each line on the left side
     cursorline = true,     -- highlight cursor line underneath the cursor horizontally
     splitbelow = true,     -- open new vertical split bottom
     splitright = true,     -- open new horizontal splits right
