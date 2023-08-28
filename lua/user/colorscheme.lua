@@ -9,14 +9,13 @@ end
 
 -- Lua
 require('onedark').setup {
-    style = 'darker',
+    --style = 'deep', -- dark | darker | cool | deep | warm |warmer
     colors = {
-        comment_color = '#579a14'
+        comment_green = '#579a14',
     },
     highlights = {
-        ["@comment"] = { fg = "$comment_color" },
-        ["@specialcomment"] = { fg = "$comment_color" },
-        ["@keyword"] = { fg = '$comment_color' },
+        ["@comment"] = {fg = '#00ff00'},
+        TSComment = {fg = '#579a14'}
     }
 }
 require('onedark').load()

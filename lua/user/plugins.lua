@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
     use 'akinsho/toggleterm.nvim'
     use 'lukas-reineke/indent-blankline.nvim'
     use 'moll/vim-bbye'
+    use 'fatih/vim-go'
 
     use {
         'nvim-tree/nvim-tree.lua',
@@ -70,6 +71,11 @@ return require('packer').startup(function(use)
 	}
 
     use 'lewis6991/gitsigns.nvim'
+
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then

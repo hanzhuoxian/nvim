@@ -45,3 +45,8 @@ keymap('n', '<leader>fh', builtin.help_tags, {})
 keymap('n', '<S-l>', ':bnext<CR>', opts)
 keymap('n', '<S-h>', ':bprevious<CR>', opts)
 keymap('n', '<leader>q', ':Bdelete!<CR>', opts)
+
+
+-- markdown
+keymap('n', '<leader>mp', ':MarkdownPreview<CR>', opts)
+keymap('n', '<leader>mps', ':MarkdownPreviewStop<CR>', opts)
